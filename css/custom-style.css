@@ -1,0 +1,15 @@
+body, html {
+  height: 100%;
+}
+.bg {
+  background: rgb(215,213,255);
+background: -moz-radial-gradient(circle, rgba(215,213,255,1) 0%, rgba(255,231,252,0.9612219887955182) 70%, rgba(0,212,255,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(215,213,255,1) 0%, rgba(255,231,252,0.9612219887955182) 70%, rgba(0,212,255,1) 100%);
+background: radial-gradient(circle, rgba(215,213,255,1) 0%, rgba(255,231,252,0.9612219887955182) 70%, rgba(0,212,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d7d5ff",endColorstr="#00d4ff",GradientType=1);
+}
+
+.d-block {
+  width: 100%;
+  height: 450px !important;
+}
